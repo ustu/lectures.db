@@ -14,4 +14,9 @@
 .. toctree::
     :maxdepth: 2
 
-    databases/index.rst
+    databases/dbms
+    databases/rdb
+    databases/sqlite
+    databases/zodb
+    databases/redis
+    databases/postgres
