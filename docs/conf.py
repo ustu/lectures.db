@@ -116,7 +116,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Основы Веб-программирования'
+project = u'Базы данных'
 copyright = u'2016,' + \
     u' Кафедра Интеллектуальных Информационных Технологий ИнФО УрФУ'
 
@@ -194,7 +194,7 @@ latex_documents = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    ('index', '-', u'Основы Веб-программирования Documentation',
+    ('index', '-', u'Базы данных',
      u'uralbash', '-', 'One line description of project.',
      'Miscellaneous'),
 ]
