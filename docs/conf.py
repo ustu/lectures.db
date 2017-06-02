@@ -14,6 +14,7 @@ sys.path.insert(0, os.path.abspath('../_lectures/docs/'))
 from config_sphinx import *  # noqa
 
 project = u'Базы данных'
+html_title = project
 epub_title = project
 latex_documents = [
     ('index', 'lectures.tex',
@@ -26,6 +27,6 @@ my_intersphinx = {
     'http://initd.org/psycopg/docs/': None,
 }
 intersphinx_mapping = dict(
-    list(intersphinx_mapping.items())
+    list(intersphinx_mapping.items())  # noqa
     + list(my_intersphinx.items())
 )
