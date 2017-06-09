@@ -3,13 +3,19 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+.. sectionauthor:: Svintsov Dmitry <root@uralbash.ru>
+
+.. meta::
+   :description: Лекции по курсу "Базы данных"
+   :keywords: курс, база, данных, sqlite, postgres, firebird, mssql, oracle, ORM, SQLAlchemy
+
+
 Базы данных
 ===========
 
 .. image:: /_static/logo.jpg
 
-Дополнение к курсу `Основы Веб-программирования
-<http://lectureswww.readthedocs.org/>`_.
+.. include:: /../_lectures/docs/lect_links.rst
 
 .. toctree::
     :maxdepth: 2
