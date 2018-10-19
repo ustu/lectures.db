@@ -26,12 +26,12 @@ latex_documents = [
      project,
      u'Свинцов Дмитрий', 'manual'),
 ]
-# my_intersphinx = {
-#     'http://docs.python.org/': None,
-#     'http://docs.sqlalchemy.org/en/latest/': None,
-#     'http://initd.org/psycopg/docs/': None,
-# }
-# intersphinx_mapping = dict(
-#     list(intersphinx_mapping.items())  # noqa
-#     + list(my_intersphinx.items())
-# )
+my_intersphinx = {
+    'http://docs.python.org/': None,
+    'http://docs.sqlalchemy.org/en/latest/': None,
+    'http://initd.org/psycopg/docs/': None,
+}
+intersphinx_mapping = dict(
+    list(intersphinx_mapping.items())  # noqa
+    + list(my_intersphinx.items())
+)
