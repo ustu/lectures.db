@@ -7,7 +7,7 @@
 
 .. meta::
    :description: Лекции по курсу "Базы данных"
-   :keywords: курс, база, данных, sqlite, postgres, firebird, mssql, oracle, ORM, SQLAlchemy
+   :keywords: курс, база, данных, СУБД, sqlite, postgres, firebird, mssql, oracle, ORM, SQLAlchemy
 
 
 Базы данных
